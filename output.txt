@@ -1,0 +1,576 @@
+
+
+
+
+
+
+
+
+
+what is natural language processing?  | ibm
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    
+
+
+
+  
+    what is natural language processing (nlp)?
+
+
+
+
+
+
+    
+
+
+                
+
+                        
+
+
+  
+  
+      natural language processing uses machine learning to analyze text or speech data
+  
+
+
+
+
+    
+
+
+                    
+
+
+
+learn about watsonx.ai
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+    what is natural language processing?
+
+
+
+
+
+    
+
+
+            
+        
+
+
+
+natural language processing (nlp) refers to the branch of computer science—and more specifically, the branch of artificial intelligence or ai—concerned with giving computers the ability to understand text and spoken words in much the same way human beings can.
+nlp combines computational linguistics—rule-based modeling of human language—with statistical, machine learning, and deep learning models. together, these technologies enable computers to process human language in the form of text or voice data and to ‘understand’ its full meaning, complete with the speaker or writer’s intent and sentiment.
+nlp drives computer programs that translate text from one language to another, respond to spoken commands, and summarize large volumes of text rapidly—even in real time. there’s a good chance you’ve interacted with nlp in the form of voice-operated gps systems, digital assistants, speech-to-text dictation software, customer service chatbots, and other consumer conveniences. but nlp also plays a growing role in enterprise solutions that help streamline business operations, increase employee productivity, and simplify mission-critical business processes.
+
+
+
+
+
+
+
+
+
+                
+
+
+
+  
+    begin your journey to ai
+
+
+
+
+
+
+    
+
+
+            
+
+
+
+
+
+learn how to scale ai
+
+
+
+
+
+
+
+
+
+explore the ai academy
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+    nlp tasks
+
+
+
+
+
+    
+
+
+            
+        
+
+
+
+human language is filled with ambiguities that make it incredibly difficult to write software that accurately determines the intended meaning of text or voice data. homonyms, homophones, sarcasm, idioms, metaphors, grammar and usage exceptions, variations in sentence structure—these just a few of the irregularities of human language that take humans years to learn, but that programmers must teach natural language-driven applications to recognize and understand accurately from the start, if those applications are going to be useful.
+several nlp tasks break down human text and voice data in ways that help the computer make sense of what it's ingesting. some of these tasks include the following:
+
+speech recognition, also called speech-to-text, is the task of reliably converting voice data into text data. speech recognition is required for any application that follows voice commands or answers spoken questions. what makes speech recognition especially challenging is the way people talk—quickly, slurring words together, with varying emphasis and intonation, in different accents, and often using incorrect grammar.
+part of speech tagging, also called grammatical tagging, is the process of determining the part of speech of a particular word or piece of text based on its use and context. part of speech identifies ‘make’ as a verb in ‘i can make a paper plane,’ and as a noun in ‘what make of car do you own?’
+word sense disambiguation is the selection of the meaning of a word with multiple meanings  through a process of semantic analysis that determine the word that makes the most sense in the given context. for example, word sense disambiguation helps distinguish the meaning of the verb 'make' in ‘make the grade’ (achieve) vs. ‘make a bet’ (place).
+named entity recognition, or nem, identifies words or phrases as useful entities. nem identifies ‘kentucky’ as a location or ‘fred’ as a man's name.
+co-reference resolution is the task of identifying if and when two words refer to the same entity. the most common example is determining the person or object to which a certain pronoun refers (e.g., ‘she’ = ‘mary’),  but it can also involve identifying a metaphor or an idiom in the text  (e.g., an instance in which 'bear' isn't an animal but a large hairy person).
+sentiment analysis attempts to extract subjective qualities—attitudes, emotions, sarcasm, confusion, suspicion—from text.
+natural language generation is sometimes described as the opposite of speech recognition or speech-to-text; it's the task of putting structured information into human language.
+
+see the blog post “nlp vs. nlu vs. nlg: the differences between three natural language processing concepts” for a deeper look into how these concepts relate.
+
+
+
+
+
+
+                now available: watsonx.ai
+            
+the all new enterprise studio that brings together traditional machine learning along with new generative ai capabilities powered by foundation models
+
+try watsonx.ai
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+    nlp tools and approaches
+
+
+
+
+
+    
+
+
+            
+        
+
+
+
+python and the natural language toolkit (nltk)
+the python programing language provides a wide range of tools and libraries for attacking specific nlp tasks. many of these are found in the natural language toolkit, or nltk, an open source collection of libraries, programs, and education resources for building nlp programs.
+the nltk includes libraries for many of the nlp tasks listed above, plus libraries for subtasks, such as sentence parsing, word segmentation, stemming and lemmatization (methods of trimming words down to their roots), and tokenization (for breaking phrases, sentences, paragraphs and passages into tokens that help the computer better understand the text). it also includes libraries for implementing capabilities such as semantic reasoning, the ability to reach logical conclusions based on facts extracted from text.
+statistical nlp, machine learning, and deep learning
+the earliest nlp applications were hand-coded, rules-based systems that could perform certain nlp tasks, but couldn't easily scale to accommodate a seemingly endless stream of exceptions or the increasing volumes of text and voice data.
+enter statistical nlp, which combines computer algorithms with machine learning and deep learning models to automatically extract, classify, and label elements of text and voice data and then assign a statistical likelihood to each possible meaning of those elements. today, deep learning models and learning techniques based on convolutional neural networks (cnns) and recurrent neural networks (rnns) enable nlp systems that 'learn' as they work and extract ever more accurate meaning from huge volumes of raw, unstructured, and unlabeled text and voice data sets. 
+for a deeper dive into the nuances between these technologies and their learning approaches, see “ai vs. machine learning vs. deep learning vs. neural networks: what’s the difference?”
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+    nlp use cases
+
+
+
+
+
+    
+
+
+            
+        
+
+
+
+natural language processing is the driving force behind machine intelligence in many modern real-world applications. here are a few examples:
+
+spam detection: you may not think of spam detection as an nlp solution, but the best spam detection technologies use nlp's text classification capabilities to scan emails for language that often indicates spam or phishing. these indicators can include overuse of financial terms, characteristic bad grammar, threatening language, inappropriate urgency, misspelled company names, and more. spam detection is one of a handful of nlp problems that experts consider 'mostly solved' (although you may argue that this doesn’t match your email experience).
+machine translation: google translate is an example of widely available nlp technology at work. truly useful machine translation involves more than replacing words in one language with words of another.  effective translation has to capture accurately the meaning and tone of the input language and translate it to text with the same meaning and desired impact in the output language. machine translation tools are making good progress in terms of accuracy. a great way to test any machine translation tool is to translate text to one language and then back to the original. an oft-cited classic example: not long ago, translating “the spirit is willing but the flesh is weak” from english to russian and back yielded “the vodka is good but the meat is rotten.” today, the result is “the spirit desires, but the flesh is weak,” which isn’t perfect, but inspires much more confidence in the english-to-russian translation.
+virtual agents and chatbots: virtual agents such as apple's siri and amazon's alexa use speech recognition to recognize patterns in voice commands and natural language generation to respond with appropriate action or helpful comments. chatbots perform the same magic in response to typed text entries. the best of these also learn to recognize contextual clues about human requests and use them to provide even better responses or options over time. the next enhancement for these applications is question answering, the ability to respond to our questions—anticipated or not—with relevant and helpful answers in their own words.
+social media sentiment analysis: nlp has become an essential business tool for uncovering hidden data insights from social media channels. sentiment analysis can analyze language used in social media posts, responses, reviews, and more to extract attitudes and emotions in response to products, promotions, and events–information companies can use in product designs, advertising campaigns, and more.
+text summarization: text summarization uses nlp techniques to digest huge volumes of digital text and create summaries and synopses for indexes, research databases, or busy readers who don't have time to read full text. the best text summarization applications use semantic reasoning and natural language generation (nlg) to add useful context and conclusions to summaries.
+
+
+
+
+
+
+
+
+
+
+
+            related solutions
+        
+
+
+
+
+            
+
+
+
+  
+    watson natural language processing solutions
+
+
+
+
+
+
+    
+
+
+        
+
+
+accelerate the business value of artificial intelligence with a powerful and flexible portfolio of libraries, services and applications.
+
+
+
+
+
+                explore natural language processing 
+                
+            
+
+
+
+
+
+
+
+            
+
+
+
+  
+    watson natural language processing library for embed 
+
+
+
+
+
+
+    
+
+
+        
+
+
+infuse powerful natural language ai into commercial applications with a containerized library designed to empower ibm partners with greater flexibility.
+
+
+
+
+
+                explore watson natural language processing library for embed 
+                
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+    resources
+
+
+
+
+
+    
+
+
+                    
+                
+
+
+
+            how-to
+        
+
+            free, hands-on learning for generative ai technologies
+        
+learn the fundamental concepts for ai and generative ai, including prompt engineering, large language models and the best open source projects.
+
+
+
+
+
+            natural language processing with watson
+        
+learn about different nlp use cases in this nlp explainer.
+
+
+
+
+
+            enhance your applications with ibm embeddable ai
+        
+visit the ibm developer's website to access blogs, articles, newsletters and more.   become an ibm partner and infuse ibm watson embeddable ai in your commercial solutions today. bm watson nlp library for embed into your solutions.
+
+
+
+
+
+            accelerate and scale innovation with ibm embeddable ai
+        
+ibm digital self-serve co-create experience (dsce) helps data scientists, application developers and ml-ops engineers discover and try ibm's embeddable ai portfolio across ibm watson libraries, ibm watson apis and ibm ai applications.
+
+
+
+
+
+            watson understands the language of your business
+        
+watch ibm data & ai gm, rob thomas as he hosts nlp experts and clients, showcasing how nlp technologies are optimizing businesses across industries.  
+
+
+
+
+
+            advancing ai ethics beyond compliance
+        
+ethical considerations for ai have never been more critical than they are today.
+
+
+
+
+
+
+            putting more knowledge at the fingertips of non-english speakers
+        
+ibm has launched a new open-source toolkit, primeqa, to spur progress in multilingual question-answering systems to make it easier for anyone to quickly find information on the web.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+take the next step
+
+
+
+
+train, validate, tune and deploy generative ai, foundation models and machine learning capabilities with ibm watsonx.ai™, a next generation enterprise studio for ai builders. build ai applications in a fraction of the time with a fraction of the data.
+
+
+
+
+
+
+explore watsonx.ai
+
+
+request a demo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
